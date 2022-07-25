@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:paddingHorizontal="20dp"
     tools:context=".MainActivity">
 
     <TextView
@@ -69,6 +70,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
         android:text="로그인"/>
 
     <Button
@@ -96,7 +98,7 @@
 
     <RadioGroup
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center|start">
 
