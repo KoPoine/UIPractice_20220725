@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/titleTxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="안녕하세요." />
@@ -45,9 +46,22 @@
         android:textSize="30sp"
         android:textStyle="bold" />
 
-    <ImageView
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/iu_image"/>
+        android:hint="이메일을 입력해주세요."
+        android:maxLines="1"
+        android:imeOptions="actionNext"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="비밀번호를 입력해주세요."
+        android:maxLines="1"
+        android:imeOptions="actionSearch"
+        android:inputType="textPassword"
+        />
 
 </LinearLayout>
